@@ -43,32 +43,89 @@
     <div class="catalog">
         <h2 class="">Наша продукция</h2>
         <img src="" width="" height="" alt="">
-        <p class="dicsount-text-top">Получите скидку 20%
+        <p class="dicsount-text-top">Получите скидку 20%<br>
         <span class="dicsount-text-down">от общей стоимости заказа</span>
         <form action="">
-        <div class="catalog item ">
+        <div class="catalog-item-first ">
             <img src="" width="" height="" alt="">
             <h3>Черная соль<br>
             Четверговая </h3>
-            <label for "item1">18.70&упаковка<span>98уп.в 1 коробке</span>
-            <h4 class=""></h>
+            <div class="">18.70&#8381&упаковка<br><span>98уп.в 1 коробке</span>
+            </div>
             <div class="product_qty_item">
-            <input class="product minus" type="button"></input>
-            <input class="quantity" type="text ">
-            <input class="product plus" type="button"></input>
-            
-            
-            </div>  
-            </label>
-
+                <label for="quantity">Введите количество упаковок в партии:<br>
+                </label>
+                <input class="product minus" type="button"></input>
+                <input class="quantity" type="text" id="quantity">
+                <input class="product plus" type="button"></input>
+            </div>
+            <div class="">Вес:
+            <input type="text" name="weight1">кг</input>
+            </div> 
+            <div class="">Цена:
+            <input type="text" name="price1"><span>&#8381</span></input>
+            </div>    
         </div>
-        
 
-        
+         <div class="catalog-item-second">
+            <img src="" width="" height="" alt="">
+            <h3>Черная соль<br>
+            Четверговая </h3>
+            <div class="">36,75&#8381&упаковка<br><span>98уп.в 1 коробке</span>
+            </div>
+            <div class="product_qty_item">
+                <label for="quantity">Введите количество упаковок в партии:<br>
+                </label>
+                <input class="product minus" type="button"></input>
+                <input class="quantity" type="text" id="quantity">
+                <input class="product plus" type="button"></input>
+            </div>
+            <div class="">Вес:
+            <input type="text" name="weight1">кг</input>
+            </div> 
+            <div class="">Цена:
+            <input type="text" name="price1"><span>&#8381</span></input>
+            </div>    
+        </div>
+    
+    
+    </div>
+    
+    <div class="order">
+    <div class="left"> 
+        <h2>Заполните форму для заказа</h2>   
+        <input type="text"></input>
+        <input type="text"></input>
+        <input type="text"></input>
+        <input type="text"></input>
+    </div>
+    <div class="select">
+     <h2>Выберите транспортную компанию</h2>
+     <select size="3" name="">
+     <option selected value="Company1">Компания1</option>
+     <option value="Company2">Компания2</option>
+     <option value="Company3">Компания2</option>
+     <option value="Company4">Компания2</option>
+     </select>
+    </div>
+    <div class="right">
+         <div class="">Сумма:
+            <label for="price1" value="">27489<span>&#8381</span></label>
+            <h3>Сумма без учета скидки</h3>
+            <div class="discount">Cкидка:<span>20%</span></div>
+            <h3>Скидка от общей стоимости товаров</h3>
 
+         </div>    
+        
+    
 
 
     </div>
+
+    </div>
+    
+    
+    
 
     
 </body>
